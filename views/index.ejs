@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, user-scalable=no">
+        <title>TodoMVC</title>
+        <link rel="stylesheet" href="/stylesheets/main.css">
+    </head>
+    <body>
+    <section class="todoapp">
+        <header class="header">
+            <h1>Liste des questions</h1>
+            <input class="new-todo" placeholder="Quelle question veux-tu poser ?" autofocus>
+        </header>
+        <section style="display:none" class="main">
+            <ul class="todo-list"></ul>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <span class="todo-count"></span>
+        <div class="filters">
+            <a class="filter-all selected" href="#">All</a>
+            <a class="filter-completed" href="#">Mes likes</a>
+        </div>
+        <span class="todo-likes">Likes restants</span>
+    </footer>
+
+    <script src="/javascripts/app.js"></script>
+    </body>
+</html>
